@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CS410 Blue - COLORS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <style type="text/css">
+        body {
+            padding-top: 60px;
+            padding-bottom: 40px;
+        }
+    </style>
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+</head>
+
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">CS410 Blue - COLORS</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li><a href="bios.html">Team Bios</a>
+                    </li>
+                    <li class="active"><a href="#">Risk Matrix</a>
+                    </li>
+					<li><a href="documents.html">Documents</a>
+                    </li>
+                    <!--<li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>-->
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+            <!-- HEADER OR TITLE -->
+            <h1>Risk Matrix</h1>
+            <!-- BODY STUFF HERE -->
+            <table class="table">
+                <tr>
+                    <td style="width: 60px"></td>
+                    <td><h4>Impact</h4></td>
+                </tr>
+                <tr>
+                    <td class="vertical-text" style="width: 20px; border: none"><h4>Probability</h4></td>
+                    <td>
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <tr>
+                                    <th class="col-xs-1" />
+                                    <th class="col-sm-2">1</th>
+                                    <th class="col-sm-2">2</th>
+                                    <th class="col-sm-2">3</th>
+                                    <th class="col-sm-2">4</th>
+                                    <th class="col-sm-2">5</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td class="success"><a class="btn btn-success btn-s" data-toggle="collapse" data-parent="accordion" href="#c2">C2</a>
+                                    </td>
+                                    <td class="success"><a class="btn btn-success btn-s" data-toggle="collapse" data-parent="accordion" href="#c4">C4</a>
+                                    </td>
+                                    <td class="success"><a class="btn btn-success btn-s" data-toggle="collapse" data-parent="accordion" href="#c3">C3</a>
+                                    </td>
+                                    <td class="warning"></td>
+                                    <td class="warning"><a class="btn btn-warning btn-s" data-toggle="collapse" data-parent="accordion" href="#c1">C1</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td class="success"></td>
+                                    <td class="success"></td>
+                                    <td class="warning"><a class="btn btn-warning btn-s" data-toggle="collapse" data-parent="accordion" href="#t3">T3</a>
+                                    </td>
+                                    <td class="warning"></td>
+                                    <td class="warning"></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td class="success"></td>
+                                    <td class="warning"></td>
+                                    <td class="warning"></td>
+                                    <td class="warning"></td>
+                                    <td class="danger"><a class="btn btn-danger btn-s" data-toggle="collapse" data-parent="accordion" href="#t2">T2</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td class="warning"><a class="btn btn-warning btn-s" data-toggle="collapse" data-parent="accordion" href="#t4">T4</a>
+                                    </td>
+                                    <td class="warning"></td>
+                                    <td class="warning"></td>
+                                    <td class="danger"></td>
+                                    <td class="danger"></td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td class="warning"></td>
+                                    <td class="warning"></td>
+                                    <td class="danger"></td>
+                                    <td class="danger"></td>
+                                    <td class="danger"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <table>
+        </div>
+        <hr class="featurette-divider">
+        <h2>Customer Risks</h2>
+        <div class="panel-group" id="accordion">
+            <!-- C1 -->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+			<a data-toggle="collapse" data-parent="accordion" href="#c1">C1: Customers do not adopt solution</a>
+			</h4>
+                </div>
+            </div>
+            <div id="c1" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <h4>Description/Elaboration</h4>
+                    If the customer does not adopt the solution, then the project is moot.
+                    <br/>
+                    <h4>Mitigation Strategy</h4>
+                    INSERT MITIGATION PLANS FOR C1 HERE
+                </div>
+            </div>
+            <!-- C2 -->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+			<a data-toggle="collapse" data-parent="accordion" href="#c2">C2: Users may not like solution</a>
+			</h4>
+                </div>
+            </div>
+            <div id="c2" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <h4>Description/Elaboration</h4>
+                    If the end users do not like the solution, they will not utilize it.
+                    <br/>
+                    <h4>Mitigation Strategy</h4>
+                    INSERT MITIGATION PLANS FOR C2 HERE
+                </div>
+            </div>
+            <!-- C3 -->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+			<a data-toggle="collapse" data-parent="accordion" href="#c3">C3: Difficulty of Use</a>
+			</h4>
+                </div>
+            </div>
+            <div id="c3" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <h4>Description/Elaboration</h4>
+                    If the system is difficult to use, adoption will be impacted.
+                    <br/>
+                    <h4>Mitigation Strategy</h4>
+                    INSERT MITIGATION PLANS FOR C3 HERE
+                </div>
+            </div>
+            <!-- C4 -->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+			<a data-toggle="collapse" data-parent="accordion" href="#c4">C4: Limited Output Options</a>
+			</h4>
+                </div>
+            </div>
+            <div id="c4" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <h4>Description/Elaboration</h4>
+                    If the output options are limited, then usage may be impacted.
+                    <br/>
+                    <h4>Mitigation Strategy</h4>
+                    INSERT MITIGATION PLANS FOR C4 HERE
+                </div>
+            </div>
+        </div>
+        <hr class="featurette-divider">
+        <h2>Technical Risks</h2>
+        <div class="panel-group" id="accordion">
+            <!-- T1 -->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+			<a data-toggle="collapse" data-parent="accordion" href="#t1">T1: Difficulty Integrating with ESL-Slash</a>
+			</h4>
+                </div>
+            </div>
+            <div id="t1" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <h4>Description/Elaboration</h4>
+                    If we are unable to integrate with ESL Slash, we will not be able to fulfil the scope requirements.
+                    <br/>
+                    <h4>Mitigation Strategy</h4>
+                    INSERT MITIGATION PLANS FOR T1 HERE
+                </div>
+            </div>
+            <!-- T2 -->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+			<a data-toggle="collapse" data-parent="accordion" href="#t2">T2: Accurate Identification of Parts of Speech</a>
+			</h4>
+                </div>
+            </div>
+            <div id="t2" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <h4>Description/Elaboration</h4>
+                    If the tool fails to identify the Parts of Speech, the project will be a failure.
+                    <br/>
+                    <h4>Mitigation Strategy</h4>
+                    INSERT MITIGATION PLANS FOR T2 HERE
+                </div>
+            </div>
+            <!-- T3 -->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+			<a data-toggle="collapse" data-parent="accordion" href="#t3">T3: Performance of Parts of Speech Identifier</a>
+			</h4>
+                </div>
+            </div>
+            <div id="t3" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <h4>Description/Elaboration</h4>
+                    If the precess takes too long, it will styme use.
+                    <br/>
+                    <h4>Mitigation Strategy</h4>
+                    INSERT MITIGATION PLANS FOR T3 HERE
+                </div>
+            </div>
+            <!-- T4 -->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+			<a data-toggle="collapse" data-parent="accordion" href="#t4">T4: Limited Input Support</a>
+			</h4>
+                </div>
+            </div>
+            <div id="t4" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <h4>Description/Elaboration</h4>
+                    If the file import is too limited, it will impact adoption.
+                    <br/>
+                    <h4>Mitigation Strategy</h4>
+                    INSERT MITIGATION PLANS FOR T4 HERE
+                </div>
+            </div>
+        </div>
+        <hr class="featurette-divider">
+
+        <footer>
+            <p>&copy; CS410 Blue 2014</p>
+        </footer>
+
+    </div>
+    <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="bootstrap/js/jquery-1.11.1.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
