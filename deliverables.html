@@ -18,7 +18,8 @@
         }
     </style>
     <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
-
+    <link href="dist/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="../assets/js/html5shiv.js"></script>
@@ -60,73 +61,39 @@
     <div class="container">
 
         <div class="row">
-            <h1>Documents</h1>
+            <h1>Deliverables</h1>
         </div>
         <div class="row">
         </div>
         <hr class="featurette-divider">
-        <div class="row featurette">
-			<div class="col-md-12">
-				<div class="panel-group" id="accordion">
-					<div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" href="#meetingMinutes">Meeting Minutes (not all meetings have annotations here)</a>
-							</h4>
-                        </div>
-                        <div id="meetingMinutes" class="panel-collapse collapse">
-                            <div class="panel-body">
-								<dl class="dl-horizontal">
-									<dt><a href="documents/meeting-9-17-2014.docx">September 7, 2014</a></dt>
-									<dd>We met with Professor Raver-Lampman to discuss the project, get to know him, and get a better idea of what he wanted out of this project.</dd>
-								</dl>
-                            </div>
-                        </div>
-                    </div>
-					<div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" href="#presentations">Presentations</a>
-							</h4>
-                        </div>
-                        <div id="presentations" class="panel-collapse collapse">
-                            <div class="panel-body">
-								<dl class="dl-horizontal">
-									<dt><a href="documents/Project Proposal.pptx">Project Proposal</a></dt>
-									<dd>This presentation was the original basis for this project (ESL Colors) and its companion project (ESL Slash).</dd>
-								</dl>
-								<dl class="dl-horizontal">
-									<dt><a href="documents/Presentation1.pdf">Feasibility</a></dt>
-									<dd>This presentation covered the risks, feasibility, and competition for this project (ESL Colors) and its connection to its companion project (ESL Slash).</dd>
-								</dl>
-								<dl class="dl-horizontal">
-									<dt><a href="documents/Presentation2.pdf">Design</a></dt>
-									<dd>This presentation covered the system design for this project (ESL Colors) and the merger with its companion project (ESL Slash) into ESL CLASH.</dd>
-								</dl>
-								<dl class="dl-horizontal">
-									<dt><a href="documents/Presentation3.pdf">User Stories</a></dt>
-									<dd>This presentation covered the various user identities and actions thereof for this project (ESL CLASH).</dd>
-								</dl>								
-                            </div>
-                        </div>
-                    </div>
-					<div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" href="#labs">Labs (Formal Paper)</a>
-							</h4>
-                        </div>
-                        <div id="labs" class="panel-collapse collapse">
-                            <div class="panel-body">
-								<dl class="dl-horizontal">
-									<dt><a href="documents/Lab1.pdf">Lab 1 Paper</a></dt>
-									<dd>This paper documents the system structure and features of both the ideal solution and the prototype version for this project.</dd>
-								</dl>
-                            </div>
-                        </div>
-                    </div>
-			</div>
-		</div>
+
+  <div class="wrapper" style="background-color:#f6f6f6;padding-top:50px;text-align:center;border-bottom:1px solid #d4d4d4">
+    <div class="container">
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <h2>Process Flows Comparison</h2>
+        Click for full size!<br><br>
+        <div class="col-lg-6">
+          <a class="test-popup-link" href="dist/img/graphs/processflow_3.png"><img src="dist/img/graphs/processflow_3_resized.png" class="img_resized_2"></a>
+
+          <script type="text/javascript"> 
+            $(document).ready(function() {
+              $('.test-popup-link').magnificPopup({ 
+              type: 'image'
+              // other options
+              });
+            });
+          </script>
+          <h3>Before</h3>
+        </div><!-- /.col-lg-6 -->
+        <div class="col-lg-6">
+          <a href="dist/img/graphs/processflow_4.png" class="test-popup-link"><img src="dist/img/graphs/processflow_4_resized.png" class="img_resized_2"></a>
+          <h3>After</h3>
+        </div><!-- /.col-lg-6 -->
+      </div><!-- /.row -->
+    </div>
+  </div>        
+
         <hr class="featurette-divider">
 
         <footer>
