@@ -49,6 +49,7 @@
                     </li>
 					<li><a href="documents.html">Documents</a>
                     </li>
+                    <li><a href="deliverables.html">Other Deliverables</a></li>
                     <!--<li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>-->
                 </ul>
@@ -112,6 +113,9 @@
         <a name="bennett"></a>
         <div class="section">
             <div class="row">
+                <div class="col-md-4">
+                    <img class="img-rounded" src="images/justin.png" height="250">
+                </div>
                 <div class="col-md-8">
                     <h2 class="featurette-heading">Justin Bennett</h2>
                     <br/>
@@ -119,18 +123,6 @@
                         Role: Database/Server Management
                         <br/>
                         <br/>Justin is Computer Science major in his Senior year. He is primarily interested in working in network infrastructure and databases. In his off time he enjoys traveling, camping and dabbling in web development.</p>
-                </div>
-                <div class="col-md-4">
-                    <img class="img-rounded" src="images/justin.png" height="250">
-                </div>
-            </div>
-        </div>
-        <hr class="featurette-divider">
-        <a name="demild"></a>
-        <div class="section">
-            <div class="row">
-                <div class="col-md-4">
-                    <img class="img-rounded" src="images/silhouette.jpeg" height="250">
                 </div>
             </div>
         </div>
