@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> CS411 Blue - CLASH</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <style type="text/css">
+        body {
+            padding-top: 60px;
+            padding-bottom: 40px;
+        }
+    </style>
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+</head>
+
+
+
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">CS411 Blue - CLASH</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li><a href="bios.html">Team Bios</a>
+                    </li>
+                    <li><a href="documents.html">Collaboration</a></li>
+                    <li class="active"><a href="#">Labs</a>
+                    </li>
+                    <li><a href="risk.html">Risk Matrix</a>
+                    </li>
+                    <li><a href="deliverables.html">Other Deliverables</a></li>
+            <!--<li><a href="#contact">Contact</a></li>-->
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+            <h1>Labs</h1>
+        </div>
+        <div class="row">
+        </div>
+        <hr class="featurette-divider">
+        <div class="row featurette">
+			<div class="col-md-12">
+                <div class="panel-group" id="accordion">
+    				<div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+    							<a data-toggle="collapse" data-parent="#accordion" href="#410lab">CS410 Collaborative Lab 1</a>
+    						</h4>
+                        </div>
+                        <div id="410lab" class="panel-collapse collapse">
+                            <div class="panel-body">
+    							<dl class="dl-horizontal">
+    								<dt><a href="documents/Lab1.pdf">CS411 Group Lab 1</a></dt>
+    								<dd>This paper documents the system structure and features of both the ideal solution and the prototype version for this project.</dd>
+    							</dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#lab1">Lab 1 Product Description</a>
+                                </h4>
+                            </div>
+                            <div id="lab1" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <dl class="dl-horizontal">
+                                        <dt>Ali Albattah</dt>
+                                        <dd><a href="labs/lab1/aliv1.docx">Version 1</a>
+                                        <a href="labs/lab1/aliv2.docx">Version 2</a></dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Andrew Chverchko</dt>
+                                        <dd><a href="labs/lab1/andrewv1.doc">Version 1</a>
+										<a href="labs/lab1/andrewv2.doc">Version 2</a></dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Artem Fisan</dt>
+                                        <dd><a href="labs/lab1/artemv1.docx">Version 1</a>
+										<a href="labs/lab1/artemv2.docx">Version 2</a></dd>
+                                    </dl>
+									<dl class="dl-horizontal">
+                                        <dt>Charles Stafford</dt>
+                                        <dd><a href="labs/lab1/charlesv1.docx">Version 1</a>
+										<a href="labs/lab1/charlesv2.docx">Version 2</a></dd>
+                                    </dl>
+									
+                                    <dl class="dl-horizontal">
+                                        <dt>Cory Morewitz</dt>
+                                        <dd><a href="labs/lab1/coryv1.docx">Version 1</a>
+                                        <a href="labs/lab1/coryv2.pdf">Version 2</a>
+                                    </dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Erich O'Saben</dt>
+                                        <dd>
+                                            <a href="labs/lab1/erichv1.docx">Version 1</a>
+                                            <a href="labs/lab1/erichv2.docx">Version 2</a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Francia Molina</dt>
+                                        <dd><a href="labs/lab1/franciav1.docx">Version 1</a>
+										<a href="labs/lab1/franciav2.docx">Version 2</a></dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Frederick Murray</dt>
+                                        <dd><a href="labs/lab1/fredv1.docx">Version 1</a>
+										<a href="labs/lab1/fredv2.docx">Version 2</a></dd>
+                                    </dl>
+                                    
+                                    <dl class="dl-horizontal">
+                                        <dt>James Ward</dt>
+									<dd>
+									<a href="labs/lab1/jamesv1.pdf">Version 1</a>
+									<a href="labs/lab1/jamesv2.pdf">Version 2</a></dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Justin Bennett</dt>
+                                        <dd><a href="labs/lab1/justinv1.docx">Version 1</a> 
+										<a href="labs/lab1/justinv2.docx">Version 2</a></dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Ming Jiang</dt>
+                                        <dd><a href="labs/lab1/mingv1.docx">Version 1</a>
+										<a href="labs/lab1/mingv2.docx">Version 2</a></dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Mohammed Alabdullatif</dt>
+                                        <dd><a href="labs/lab1/moev1.docx">Version 1</a>
+                                            <a href="labs/lab1/moev2.docx">Version 2</a>
+                                        </dd>
+                                    </dl>
+                                    
+                                      
+                                </div>
+                            </div>
+                        </div>
+                    <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#lab2">Lab 2 Product Prototype Specification</a>
+                                </h4>
+                            </div>
+                            <div id="lab2" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                     <dl class="dl-horizontal">
+                                        <dt>Lab 2 Outline</dt>
+										<dd><a href="labs/lab2/Lab 2 Outline.docx">Version 1</a></dd>
+                                    </dl>
+									<dl class="dl-horizontal">
+                                        <dt>Lab 2 Section 3</dt>
+										<dd><a href="https://docs.google.com/a/odu.edu/document/d/1z0J1BeoJieky9CP79U-GkVg6SRkMCHhSoG_ZAYO5n0o/edit?usp=sharing">Version 1</a></dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Ali Albattah</dt>
+                                        <dd><a href="labs/lab2/aliv1lab2.docx">Version 1</a>
+                                        <a href="labs/lab2/aliv2lab2.docx">Version 2</a></dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Andrew Chverchko</dt>
+                                        <dd><a href="labs/lab2/andrewv1lab2.doc">Version 1</a>
+                                        <a href="labs/lab2/andrewv2lab2.doc">Version 2</a></dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Artem Fisan</dt>
+                                        <dd><a href="labs/lab2/artemv1lab2.pdf">Version 1</a>
+                                        <a href="labs/lab2/artemv2lab2.pdf">Version 2</a></dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Charles Stafford</dt>
+                                        <dd><a href="labs/lab2/charlesv2lab1.docx">Version 1</a>
+                                        <a href="labs/lab2/charlesv2lab2.docx">Version 2</a></dd>
+                                    </dl>
+									<dl class="dl-horizontal">
+                                        <dt>Cory Morewitz</dt>
+                                        <dd><a href="labs/lab2/coryv2.1.pdf">Version 1</a>
+                                            <a href="labs/lab2/coryv2.2.pdf">Version 2</a>
+                                        </dd>
+									</dl>
+									<dl class="dl-horizontal">
+                                        <dt>Justin Bennett</dt>
+                                        <dd><a href="labs/lab2/justinv1lab2.docx">Version 1</a></dd>
+									</dl>
+									<dl class="dl-horizontal">
+                                        <dt>Erich O'Saben</dt>
+                                        <dd><a href="labs/lab2/erichv1lab2.docx">Version 1</a></dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Francia Molina</dt>
+                                        <dd><a href="labs/lab2/franciav2lab2.pdf">Version 1</a>
+                                        <a href="labs/lab2/franciav2lab2.pdf">Version 2</a></dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Frederick Murray</dt>
+                                        <dd><a href="labs/lab2/fredv1lab2.doc">Version 1</a>
+                                        <a href="labs/lab2/fredv2lab2.doc">Version 2</a></dd>
+                                    </dl>
+									<dl class="dl-horizontal">
+                                        <dt>James Ward</dt>
+                                        <dd><a href="labs/lab2/jamesv1lab2.pdf">Version 1</a></dd>
+                                    </dl>
+									<dl class="dl-horizontal">
+                                        <dt>Ming Jiang</dt>
+                                        <dd><a href="labs/lab2/mingv1.doc">Version 1</a>
+                                        <a href="labs/lab2/mingv2.doc">Version 2</a></dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Mohammed Alabdullatif</dt>
+                                        <dd><a href="labs/lab2/moev2lab1.docx">Version 1</a>
+                                        <a href="labs/lab2/moev2lab2.docx">Version 2</a></dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+ 
+						  <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#lab3">Lab 3 Test Cases</a>
+                                </h4>
+                            </div>
+                            <div id="lab3" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                     
+								 																		
+									 <dl class="dl-horizontal">
+                                        <dt>Ali Albattah</dt>
+                                        <dd>
+										<a href="labs/lab3/ali3a.pdf">Test 1</a> 
+										<a href="labs/lab3/ali3b.pdf">Test 2</a>
+										</dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Andrew Chverchko</dt>
+                                       <dd>
+									   <a href="labs/lab3/andrew3a.pdf">Test 1</a> 
+									   <a href="labs/lab3/andrew3b.pdf">Test 2</a>
+									   </dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Artem Fisan</dt>
+                                        <dd>
+										<a href="labs/lab3/artem3a.pdf">Test 1</a>
+										<a href="labs/lab3/artem3b.pdf">Test 2</a>
+										</dd>
+                                    </dl>
+									<dl class="dl-horizontal">
+                                        <dt>Charles Stafford</dt>
+                                       <dd>
+									   <a href="labs/lab3/charles3a.pdf">Test 1</a> 
+									   <a href="labs/lab3/charles3b.pdf">Test 2</a>
+									   </dd>
+                                    </dl>
+									
+                                   <dl class="dl-horizontal">
+                                        <dt>Cory Morewitz</dt>
+                                        <dd>
+										<a href="labs/lab3/cory3a.pdf">Test 1</a>
+										<a href="labs/lab3/cory3b.pdf"> Test 2</a>
+										</dd>
+									</dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Erich O'Saben</dt>
+                                        <dd>
+										<a href="labs/lab3/erich3a.docx">Test 1</a>
+										<a href="labs/lab3/erich3b.docx">Test 2</a>
+										</dd>
+                                     </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Francia Molina</dt>
+                                        <dd>
+										<a href="labs/lab3/francia3a.pdf">Test 1</a>
+										<a href="labs/lab3/francia3b.pdf">Test 2</a>
+										</dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Frederick Murray</dt>
+                                        <dd>
+										<a href="labs/lab3/fred3a.pdf">Test 1 </a>
+										<a href="labs/lab3/fred3b.pdf">Test 2</a>
+										</dd>
+                                    </dl>
+                                    
+                                    <dl class="dl-horizontal">
+                                        <dt>James Ward</dt>
+										<dd>
+										<a href="labs/lab3/james3a.pdf">Test 1</a>
+										<a href="labs/lab3/james3b.pdf">Test 2</a>
+									</dd>
+                                    </dl>
+										
+									<dl class="dl-horizontal">
+                                        <dt>Justin Bennett</dt>
+                                        <dd>
+										<a href="labs/lab3/justin3a.pdf">Test 1</a>
+										<a href="labs/lab3/justin3b.pdf">Test 2</a>
+										</dd>
+									</dl>
+
+									<dl class="dl-horizontal">
+                                        <dt>Ming Jiang</dt>
+                                        <dd>
+										<a href="labs/lab3/ming3a.pdf">Test 1</a> 
+										<a href="labs/lab3/ming3b.pdf">Test 2</a>
+										</dd>
+                                    </dl>
+                                  
+6~                                    <dl class="dl-horizontal">
+                                        <dt>Mohammed Alabdullatif</dt>
+                                        <dd>
+										<a href="labs/lab3/moe3a.pdf">Test 1</a>
+										<a href="labs/lab3/moe3b.pdf">Test 2</a>
+										</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+						
+						<div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#lab4">Lab 4 User Manual</a>
+                                </h4>
+                            </div>
+                            <div id="lab4" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                     
+									<dl class="dl-horizontal">
+                                        <dt>User Manual</dt>
+                                        <dd><a href="labs/lab4/Lab4UserManual.pdf">Version 1</a></dd>
+									</dl>
+									 
+                                </div>
+                            </div>
+                        </div>
+  
+
+			</div>
+		 <hr class="featurette-divider">
+
+        <footer>
+            <p>&copy;  CS411 Blue 2015</p>
+        </footer>
+
+    </div>
+    <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="bootstrap/js/jquery-1.11.1.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
